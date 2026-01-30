@@ -75,7 +75,6 @@ Computes the cumulative sum of a one-dimensional double-precision floating-point
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 var scalar2ndarray = require( '@stdlib/ndarray-base-from-scalar' );
 var ndarray = require( '@stdlib/ndarray-base-ctor' );
 
@@ -88,13 +87,10 @@ var y = new ndarray( 'float64', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
 var initial = scalar2ndarray( 0.0, 'float64', 'row-major' );
 
 var v = dcusumors( [ x, y, initial ] );
-// returns <ndarray>
+// returns <ndarray>[ 1.0, 4.0, 8.0, 10.0 ]
 
 var bool = ( v === y );
 // returns true
-
-var arr = ndarray2array( v );
-// returns [ 1.0, 4.0, 8.0, 10.0 ]
 ```
 
 The function has the following parameters:
@@ -185,7 +181,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -211,8 +207,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
