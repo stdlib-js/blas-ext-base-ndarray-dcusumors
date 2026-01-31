@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-ndarray-dcusumors",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the cumulative sum of a one-dimensional double-precision floating-point ndarray using ordinary recursive summation.",
   "license": "Apache-2.0",
   "author": {
