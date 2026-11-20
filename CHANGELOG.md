@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-12)
+## Unreleased (2026-11-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`bd7dc67`](https://github.com/stdlib-js/stdlib/commit/bd7dc671a7596140845385a9dae5d60084059d3e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dcusumors` [(#16733)](https://github.com/stdlib-js/stdlib/pull/16733) _(by KevinF718)_
 -   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
 -   [`81d0c40`](https://github.com/stdlib-js/stdlib/commit/81d0c40992d501090684ee80a52170885a8ccc0c) - **docs:** add notes _(by Athan Reines)_
 -   [`3a079cf`](https://github.com/stdlib-js/stdlib/commit/3a079cf104c2078ea8d3e616731e0de63d8882e3) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
@@ -28,10 +29,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   KevinF718
 -   Philipp Burckhardt
 
 </section>

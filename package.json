@@ -53,7 +53,7 @@
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-from-scalar-like": "^0.1.1",
     "@stdlib/ndarray-data-buffer": "^0.2.3",
-    "@stdlib/ndarray-from-scalar": "^0.3.1",
+    "@stdlib/ndarray-tensor0d-float64": "github:stdlib-js/ndarray-tensor0d-float64#main",
     "@stdlib/ndarray-to-array": "^0.2.2",
     "@stdlib/ndarray-vector-float64": "^0.1.1",
     "@stdlib/ndarray-zeros-like": "^0.3.2",
